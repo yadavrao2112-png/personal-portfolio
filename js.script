@@ -1,0 +1,11 @@
+document.getElementById("applicationForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    document.getElementById("result").innerHTML =
+    "Form Submitted Successfully ✅";
+
+    document.getElementById("applicationForm").reset();
+
+});
